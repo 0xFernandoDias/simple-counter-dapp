@@ -1,0 +1,33 @@
+{
+  "extensions": [
+    {
+      "metadata": {
+        "name": "MyContract",
+        "metadataURI": "ipfs://Qmao3ZBLp7hhtLxLuH2DvyZhVM32mmBtbqk2SVEDfqKDu6",
+        "implementation": "0x0000000000000000000000000000000000000000"
+      },
+      "functions": [
+        {
+          "functionSelector": "0xf5c5ad83",
+          "functionSignature": "decrementCounter()"
+        },
+        {
+          "functionSelector": "0x8ada066e",
+          "functionSignature": "getCounter()"
+        },
+        {
+          "functionSelector": "0x5b34b966",
+          "functionSignature": "incrementCounter()"
+        }
+      ]
+    }
+  ],
+  "extensionDeployArgs": [
+    {
+      "name": "MyContract",
+      "amount": 0,
+      "salt": "0xee36572fffdc522882601c726a4de565e3414b85d4e18fb1b8e472cbe0f3f216",
+      "bytecode": "60806040526000805534801561001457600080fd5b5060fd806100236000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80635b34b9661460415780638ada066e146049578063f5c5ad8314605e575b600080fd5b60476064565b005b60005460405190815260200160405180910390f35b60476078565b600080549080607183609b565b9190505550565b60008054908060718360b3565b634e487b7160e01b600052601160045260246000fd5b600060001982141560ac5760ac6085565b5060010190565b60008160bf5760bf6085565b50600019019056fea2646970667358221220b90f2d219b823080e49195be8f01162c08841e75b2682ab52390d3ee4e91fe8d64736f6c63430008090033"
+    }
+  ]
+}
